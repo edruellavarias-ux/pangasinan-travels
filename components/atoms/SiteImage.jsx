@@ -5,9 +5,13 @@ export default function SiteImage({
   alt,
   className = "",
 }) {
+  const imageSrc = src.startsWith("/pangasinan-travels")
+    ? src
+    : `/pangasinan-travels${src}`;
+
   return (
     <Image
-      src={src}
+      src={imageSrc}
       alt={alt}
       width={900}
       height={600}
