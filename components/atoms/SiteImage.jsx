@@ -12,6 +12,7 @@ export default function SiteImage({
       width={900}
       height={600}
       className={className}
+      unoptimized
     />
   );
 }
