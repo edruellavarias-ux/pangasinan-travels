@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="site-footer">
@@ -5,8 +7,9 @@ export default function Footer() {
 
         <div>
           <div className="footer-brand">
-            <span className="logo-mark">PT</span>
-            <strong>PANGASINAN TRAVELS</strong>
+            <span className="logo-mark">P</span>
+
+            <strong>PANGASINAN TRAVEL</strong>
           </div>
 
           <p>
@@ -18,16 +21,16 @@ export default function Footer() {
         <div>
           <h3>Explore</h3>
 
-          <a href="/">Home</a>
-          <a href="/explore">Destinations</a>
-          <a href="/about">About Pangasinan Travels</a>
+          <Link href="/">Home</Link>
+          <Link href="/explore">Destinations</Link>
+          <Link href="/about">About Pangasinan</Link>
         </div>
 
       </div>
 
       <div className="footer-bottom">
         <p>
-          © 2026 Pangasinan Travels. For educational purposes.
+          © 2026 Pangasinan Travel. For educational purposes.
         </p>
       </div>
     </footer>

@@ -3,7 +3,7 @@ import Header from "../components/organisms/Header";
 import Footer from "../components/organisms/Footer";
 
 export const metadata = {
-  title: "Lakbay Pangasinan",
+  title: "Pangasinan Travels",
   description:
     "Explore the places, stories, and experiences of Pangasinan.",
 };

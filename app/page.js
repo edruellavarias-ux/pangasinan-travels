@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Hero from "../components/organisms/Hero";
 import DestinationGrid from "../components/organisms/DestinationGrid";
 import { destinations } from "../data/destinations";
@@ -24,9 +25,12 @@ export default function Home() {
                 </h2>
               </div>
 
-              <a href="/explore" className="text-link">
+              <Link
+                href="/explore"
+                className="text-link"
+              >
                 View all destinations →
-              </a>
+              </Link>
             </div>
 
             <DestinationGrid
